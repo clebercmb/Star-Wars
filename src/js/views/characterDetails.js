@@ -11,14 +11,14 @@ const characterDetails = props => {
 	return (
 		<div className="container">
 			Hello
-			<div className="card mb-3" style="max-width: 540px;">
+			<div className="card mb-3" style={{ maxWidth: 540 }}>
 				<div className="row g-0">
 					<div className="col-md-4">
 						<img src="..." alt="..." />
 					</div>
 					<div className="col-md-8">
-						<div clasName="card-body">
-							<h5 clasName="card-title">Card title</h5>
+						<div className="card-body">
+							<h5 className="card-title">Card title</h5>
 							<p className="card-text">Gender</p>
 							<p className="card-text">eyecolor</p>
 							<p className="card-text">height</p>
@@ -33,4 +33,5 @@ const characterDetails = props => {
 		</div>
 	);
 };
+
 export default characterDetails;
